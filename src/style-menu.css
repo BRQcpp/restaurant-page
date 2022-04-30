@@ -1,0 +1,28 @@
+.dish-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dish-menu-pos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.d-m-pos-text-content {
+    max-width: 590px;
+}
+
+.d-m-pos-img {
+    width: 400px;
+    height: 265.49px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.text-description {
+    font-size: 15px;
+    font-family: 'Noto Sans'
+}

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../src/fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ms Madi';
+    src: url(../src/fonts/Ms_Madi/MsMadi-Regular.ttf);
+}
+
+* {
+    font-family: 'Ms Madi';
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Ms Madi';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    height: 20%;
+    font-size: 80px;
+    background-color: #17285c;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+.page-menu {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page-menu-ch {
+    color: white;
+    background-color: #17285c;
+    width: 160px;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+}
+
+.main-content {
+    margin: 2% 0;
+    width: 100%;
+    gap: 20px;
+    background: white;
+    color: black;
+    height:  72%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow-y: auto;
+}
+
+.img-container {
+    max-width: 404px;
+    max-height: 271px;
+    margin: 0 auto;
+}
+
+.main-image {
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.description {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.text-heading {
+    margin: 0 auto;
+    height: 50px;   
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-content {
+    max-width: 590px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Noto Sans';
+    text-align: center;
+}
+
+.footer {
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.attribute > *{
+    color: black;
+    font-family: 'Noto Sans';
+    font-size: 10px;
+}
+
+

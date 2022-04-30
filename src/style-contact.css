@@ -1,0 +1,27 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.contact {
+    font-size: 18px;
+    font-family: 'Noto Sans';
+    margin: 0 auto;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location-img {
+    width: 400px;
+    height: 266.84px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: auto;
+}
